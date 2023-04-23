@@ -56,7 +56,7 @@ documentation:
 
 
 # The following fields are optional
-  tag:          "FSM, finite state machine, one bit cpu, 1bitCPU, Universal Finite State Machine"      # comma separated list of tags: test encryption, experiment, clock, animation, utility, industrial, pwm, fpga, alu, microprocessor, risc, riscv, sensor, signal generator, fft, filter, music, bcd, sound, serial, timer, random number generator, calculator, decoder, counter, puzzle, multiplier, game, oscillator,
+  tag:          "FSM, finite state machine, one bit cpu, 1bitCPU, Universal Finite State Machine, Two Bit Universal Finite State Machine "      # comma separated list of tags: test encryption, experiment, clock, animation, utility, industrial, pwm, fpga, alu, microprocessor, risc, riscv, sensor, signal generator, fft, filter, music, bcd, sound, serial, timer, random number generator, calculator, decoder, counter, puzzle, multiplier, game, oscillator,
   external_hw:  "A microcomputer to load the RAM instructions (can be an Arduino), and a clock to run the FSM"      # Describe any external hardware needed
   discord:      ""      # Your discord handle, used for communication and automatically assigning tapeout role after a submission
   doc_link:     ""      # URL to longer form documentation, eg the README.md in your repository

@@ -7,7 +7,7 @@ project:
 # Source files must be in ./src and you must list each source file separately
   source_files:        
     - onebitcpu.v
-    - duaport_ram.v
+    - dualport_ram.v
     - shiftreg.v
     - reg8.v
   top_module:  "onebitcpu"      # put the name of your top module here, make it unique by prepending your github username

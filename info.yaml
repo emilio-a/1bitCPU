@@ -48,12 +48,20 @@ documentation:
     - wr_shft  : a pulse here transfers the contents from shift register to RAM
     - reset    : active high, resets the 16bit shift reg and the Next State reg
     - clk_cpu  : clock to run the FSM
-    - entradas : two bit inputs, D1 and D0
+    - entradaD0 : input bit D0
+    - entradaD1 : input bit D1
+    - none : unused
 
 # A description of what the outputs do
   outputs:
-    - salidas  : two bit outputs, Q1 and Q0
-
+    - salidaQ0  : bit Q0
+    - salidaQ1  : bit Q1
+    - none : unused
+    - none : unused
+    - none : unused
+    - none : unused
+    - none : unused
+    - none : unused
 
 # The following fields are optional
   tag:          "FSM, finite state machine, one bit cpu, 1bitCPU, Universal Finite State Machine, Two Bit Universal Finite State Machine "      # comma separated list of tags: test encryption, experiment, clock, animation, utility, industrial, pwm, fpga, alu, microprocessor, risc, riscv, sensor, signal generator, fft, filter, music, bcd, sound, serial, timer, random number generator, calculator, decoder, counter, puzzle, multiplier, game, oscillator,
